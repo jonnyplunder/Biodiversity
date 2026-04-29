@@ -1,5 +1,4 @@
 {
-	"enabled": false,
 	"inheritFrom": "game:blocktypes/wood/woodtyped/log-narrow",
 	"code": "lognarrow",
 	"variantgroups": [
@@ -9,7 +8,7 @@
 		},
 		{
 			"code": "wood",
-			"states": [ "larch", "wiliwili", "crownofthorns", "birch", "brideinwhite", "alder", "bearnut", "willow", "redwillow", "aspen", "leadwood", "bluemahoe", "heather", "sourwood", "mousetrap" ]
+			"states": [ "wiliwili", "crownofthorns", "brideinwhite","redwillow", "alder", "aspen", "heather", "sourwood", "mousetrap" ]
 		},
 		{
 			"code": "rotation",
