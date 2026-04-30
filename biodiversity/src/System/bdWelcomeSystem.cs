@@ -47,7 +47,12 @@ namespace biodiversity.src.System
 
         private void Event_WelcomeMessage(IClientPlayer byPlayer)
         {
-            if (biodiversityModSystem.cConfig.DisableWelcomeMsg)
+            if(capi.Side == EnumAppSide.Server)
+            {
+                capi.Logger.Warning("Welcome message event triggered on server side, which should not happen. Aborting welcome message.");
+                return;
+            }
+            if (biodiversityModSystem.cConfig.DisableWelcomeMsg || byPlayer.PlayerUID != capi.World.Player.PlayerUID)
             {
                 return;
             }
@@ -65,6 +70,7 @@ namespace biodiversity.src.System
                 : Lang.Get("biodiversity:serverwelcome", byPlayer.PlayerName, installedModsString);
 
             capi.ShowChatMessage(welcomeMsg);
+            capi.Event.PlayerJoin -= Event_WelcomeMessage; // Unsubscribe after showing the message once
         }
 
 
