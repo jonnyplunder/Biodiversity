@@ -31,44 +31,6 @@
 		"*-ash": 20,
 		"*": 200
 	},
-	"nutritionPropsByType": {
-		"*-bearnut": {
-			"satiety": 80,
-			"foodcategory": "Protein"
-		},
-		"*-beech": {
-			"satiety": 60,
-			"foodcategory": "Protein"
-		},
-		"*-sal": {
-			"satiety": 40,
-			"foodcategory": "Grain"
-		},
-		"*-tamanu": {
-			"satiety": 60,
-			"foodcategory": "Grain"
-		},
-		"*-umnini": {
-			"satiety": 80,
-			"foodcategory": "Fruit"
-		},
-		"*-banyan": {
-			"satiety": 80,
-			"foodcategory": "Fruit"
-		},
-		"*-satinash": {
-			"satiety": 60,
-			"foodcategory": "Fruit"
-		},
-		"*-honeylocust": {
-			"satiety": 40,
-			"foodcategory": "Fruit"
-		},
-		"*-yew": {
-			"satiety": 40,
-			"foodcategory": "Fruit"
-		}
-	},
 	"guiTransformByType": {
 		"*-brideinwhite": {
 			"translation": {
