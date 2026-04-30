@@ -1,6 +1,6 @@
 [
   {
-    "enabled": false,
+    "enabled": true,
     "file": "game:worldgen/blockpatches/other.json",
     "op": "addmerge",
     "path": "/-",
