@@ -23,6 +23,9 @@
   "block-crop-leek-*": "Growing leeks",
   "block-crop-potato-*": "Growing potatoes",
   "block-crop-tomato-*": "Growing tomatoes",
+  "block-crop-leek-7": "Mature leeks",
+  "block-crop-potato-7": "Mature potatoes",
+  "block-crop-tomato-7": "Mature tomatoes",
 
   //Food
   "item-vegetable-leek": "Leek",
@@ -133,7 +136,7 @@
   "bdcrop:incontainer-item-spiritportion-honeydewmelon": "Honeydew melon brandy",
 
   //Modded Cooking Items
-  "bdcrop:item-vegetable-bakedpotato": "Baked potato",
+  //"bdcrop:item-vegetable-bakedpotato": "Baked potato",
 
 
 

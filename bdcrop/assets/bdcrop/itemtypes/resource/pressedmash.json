@@ -6,7 +6,6 @@
 		{
 			"code": "fruit",
 			"loadFromProperties": "bdcrop:item/food/fruit"
-			//"states": [ "cantaloupe", "honeydewmelon", "mirzamelon", "watermelon" ]
 		}
 	],
 	"attributes": {

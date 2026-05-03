@@ -20,18 +20,21 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": [ "potato", "bakedpotato" ]
+			//"states": [ "potato", "bakedpotato" ]
+			"states": [ "potato" ]
 		}
 	],
 	"shapebytype": {
-		"*-bakedpotato": { "base": "game:item/food/vegetable/potato-baked" },
+		//"*-bakedpotato": { "base": "game:item/food/vegetable/potato-baked" },
 		"*": { "base": "item/vegetable/potato" }
 	},
 	"texturesbytype": {
+		/*
 		"*-bakedpotato": {
 			"group16-potato": { "base": "game:block/food/pie/fill-potato" },
 			"potato": { "base": "game:item/food/vegetable/potato" }
 		},
+	*/
 		"*": {
 			"potato": { "base": "game:item/food/vegetable/potato" }
 		}
@@ -46,18 +49,46 @@
 		"*-potato": {
 			"satiety": 110,
 			"foodcategory": "Vegetable"
-		},
+		}
+/*
 		"*-bakedpotato": {
 			"satiety": 140,
 			"foodcategory": "Vegetable"
 		}
+	*/
+	},
+	"attributes": {
+		"handbook": {
+			"groupBy": [ "vegetable-*" ]
+		},
+		"inTrapTransformByType": {
+			"*": {
+				"translation": {
+					"x": -0.15,
+					"y": -0.4,
+					"z": -0.3
+				},
+				"rotation": {
+					"x": -90,
+					"y": 0,
+					"z": 0
+				}
+			}
+		}
 	},
 	"attributesByType": {
-		"*-potato" : {
-			"foodTags" : ["{type}", "tastyvegetable"],
-			"inContanierTexture": { base: "game:block/food/pie/fill-potato" },
-			"nutritionPropsWhenInMeal": { satiety: 160, foodcategory: "vegetable" },
-			"inPieProperties" : { texture: "game:block/food/pie/fill-potato", partType: 'Filling', mixingCodes: ["potpie"] }
+		"*-potato": {
+			"foodTags": [ "{type}", "tastyvegetable" ],
+			"inContanierTexture": { "base": "game:block/wood/barrel/raw-potato" },
+			"nutritionPropsWhenInMeal": {
+				"satiety": 160,
+				"foodcategory": "vegetable"
+			},
+			"inPieProperties": {
+				"texture": "game:block/food/pie/fill-potato",
+				"partType": "Filling",
+				"mixingCodes": [ "potpie" ]
+			}
 		}
 	},
 	"transitionablePropsByType": {
