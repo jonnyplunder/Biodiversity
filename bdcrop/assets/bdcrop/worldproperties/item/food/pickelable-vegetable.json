@@ -1,9 +1,11 @@
 ﻿{
-    "enabled": false,
-    "code": "vegetable",
-    "variants": [
-        {
-            "code": "cucumber"
-        },
-    ]
+  "enabled": false,
+  "code": "vegetable",
+  "variants": [
+/*
+    {
+      "code": "cucumber"
+    },
+  */
+  ]
 }
