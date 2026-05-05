@@ -7,7 +7,7 @@
 			"attachedShape": { "base": "game:item/tool/oar-crude-rafted" }
 		},
 		"handbook": {
-			"groupBy": [ "game:oar-*" ]
+			"groupBy": [ "oar-*" ]
 		}
 	},
 	"variantgroups": [
