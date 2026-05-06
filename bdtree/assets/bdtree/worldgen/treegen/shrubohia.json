@@ -21,8 +21,8 @@
 		branchStart:  { avg: 2, var: 0.01 },
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-ohia-ud",
+		logBlockCode: "log-grown-ohia-ud",
 		leavesBlockCode: "bdtree:leaves-grown-ohia",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-ohia",
+		leavesBranchyBlockCode: "leavesbranchy-grown-ohia",
 	}
 }

@@ -50,9 +50,9 @@
 		"branchStart": { "avg": 2 }
 	}],
 	"treeBlocks": {
-		"logBlockCode": "bdtree:log-grown-tamanu-ud",
+		"logBlockCode": "log-grown-tamanu-ud",
 		"leavesBlockCode": "bdtree:leaves-grown-tamanu",
-		"leavesBranchyBlockCode": "bdtree:leavesbranchy-grown-tamanu",
+		"leavesBranchyBlockCode": "leavesbranchy-grown-tamanu",
 		"vinesBlockCode": "game:wildvine-tropical-section-north",
 		"vinesEndBlockCode": "game:wildvine-tropical-end-north",
 		"trunkSegmentBase": "bdtree:logsection-grown-tamanu-",

@@ -28,9 +28,9 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-mahogany-ud",
+		logBlockCode: "log-grown-mahogany-ud",
 		leavesBlockCode: "bdtree:leaves-grown-mahogany",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-mahogany",
+		leavesBranchyBlockCode: "leavesbranchy-grown-mahogany",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

@@ -27,9 +27,9 @@
 		branchWidthMultiplier: { avg: 0.7, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-saxaul-ud",
+		logBlockCode: "log-grown-saxaul-ud",
 		leavesBlockCode: "bdtree:leaves-grown-saxaul",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-saxaul",
+		leavesBranchyBlockCode: "leavesbranchy-grown-saxaul",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north"
 	}

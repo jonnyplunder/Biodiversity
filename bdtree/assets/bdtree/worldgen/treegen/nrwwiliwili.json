@@ -1,9 +1,9 @@
 {
-	treeWorldPropertyCode: "wiliwili",
+	treeWorldPropertyCode: "nrwwiliwili",
 	isTropical: true,
-	sizeMultiplier: 0.7,
+	sizeMultiplier: 1.2,
 	trunks: [{
-		widthloss: 0.14,
+		widthloss: 0.3,
 		dieAt: { avg: 0.001 },
 		branchStart: { dist: "gaussian", avg: 0.3, var: 0.1 },
 		branchSpacing: { avg: 0.15, var: 0.1 },
@@ -29,9 +29,9 @@
 		branchWidthMultiplier: { avg: 0.38, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:lognarrow-grown-wiliwili-ud",
+		logBlockCode: "lognarrow-grown-wiliwili-ud",
 		leavesBlockCode: "bdtree:leaves-grown-wiliwili",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-wiliwili",
+		leavesBranchyBlockCode: "leavesbranchy-grown-wiliwili",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"
 	}

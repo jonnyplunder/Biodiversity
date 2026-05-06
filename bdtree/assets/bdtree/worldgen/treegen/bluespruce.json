@@ -1,8 +1,8 @@
 {
 	treeWorldPropertyCode: "bluespruce",
-	sizeMultiplier: 0.6,
+	sizeMultiplier: 0.8,
 	trunks: [{
-		widthloss: 0.044,
+		widthloss: 0.035,
 		dieAt: { avg: 0.05 },
 		branchStart: { dist: "gaussian", avg: 0.2, var: 0.1 },
 		branchSpacing: { avg: 0.15, var: 0.005 },
@@ -26,11 +26,11 @@
 		branchWidthMultiplier: { avg: 0.4, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-spruce-ud",
-		otherLogBlockCode: "bdtree:log-resin-spruce-ud",
+		logBlockCode: "log-grown-spruce-ud",
+		otherLogBlockCode: "log-resin-spruce-ud",
 		otherLogChance: 0.02,
 		leavesBlockCode: "bdtree:leaves-grown-bluespruce",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-bluespruce",
+		leavesBranchyBlockCode: "leavesbranchy-grown-bluespruce",
 		mossDecorCode: "game:attachingplant-spottymoss"
 	}
 }

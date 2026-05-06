@@ -38,9 +38,9 @@
 		dieAt: { avg: 0.3 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-yew-ud",
+		logBlockCode: "log-grown-yew-ud",
 		leavesBlockCode: "bdtree:leaves-grown-yew",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-yew",
+		leavesBranchyBlockCode: "leavesbranchy-grown-yew",
 		mossDecorCode: "game:attachingplant-spottymoss"
 	}
 }

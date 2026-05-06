@@ -1,4 +1,5 @@
 {
+  enabled: false,
 	treeWorldPropertyCode: "pyramidalpoplar",
 	sizeMultiplier: 1.5,
 	trunks: [{
@@ -27,9 +28,9 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-poplar-ud",
+		logBlockCode: "log-grown-poplar-ud",
 		leavesBlockCode: "bdtree:leaves-grown-pyramidalpoplar",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-pyramidalpoplar",
+		leavesBranchyBlockCode: "leavesbranchy-grown-pyramidalpoplar",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

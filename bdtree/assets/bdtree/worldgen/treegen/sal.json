@@ -27,9 +27,9 @@
         "branchQuantity": { "avg": 3, "var": 1 }
     }],
     "treeBlocks": {
-	"logBlockCode": "bdtree:log-grown-sal-ud",
+	"logBlockCode": "log-grown-sal-ud",
 	"leavesBlockCode": "bdtree:leaves-grown-sal",
-	"leavesBranchyBlockCode": "bdtree:leavesbranchy-grown-sal",
+	"leavesBranchyBlockCode": "leavesbranchy-grown-sal",
 	"vinesBlockCode": "game:wildvine-tropical-section-north",
 	"vinesEndBlockCode": "game:wildvine-tropical-end-north",
 	"mossDecorCode": "game:attachingplant-spottymoss"

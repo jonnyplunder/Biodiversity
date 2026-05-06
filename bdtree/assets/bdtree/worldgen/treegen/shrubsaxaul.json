@@ -20,9 +20,9 @@
 		branchStart:  { avg: 2, var: 0.01 },
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-saxaul-ud",
+		logBlockCode: "log-grown-saxaul-ud",
 		leavesBlockCode: "bdtree:leaves-grown-saxaul",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-saxaul",
+		leavesBranchyBlockCode: "leavesbranchy-grown-saxaul",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north", mossDecorCode: "game:attachingplant-spottymoss"
 	}

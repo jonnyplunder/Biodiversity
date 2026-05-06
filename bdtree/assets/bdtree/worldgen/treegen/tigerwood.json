@@ -28,9 +28,9 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-tigerwood-ud",
+		logBlockCode: "log-grown-tigerwood-ud",
 		leavesBlockCode: "bdtree:leaves-grown-tigerwood",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-tigerwood",
+		leavesBranchyBlockCode: "leavesbranchy-grown-tigerwood",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

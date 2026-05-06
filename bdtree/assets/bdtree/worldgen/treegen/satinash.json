@@ -28,9 +28,9 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-satinash-ud",
+		logBlockCode: "log-grown-satinash-ud",
 		leavesBlockCode: "bdtree:leaves-grown-satinash",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-satinash",
+		leavesBranchyBlockCode: "leavesbranchy-grown-satinash",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"

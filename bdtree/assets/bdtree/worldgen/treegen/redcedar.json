@@ -1,9 +1,9 @@
 {
     "treeWorldPropertyCode": "redcedar",
-	sizeMultiplier: 1.4,
+	sizeMultiplier: 1.55,
 	yOffset: -2,
 	trunks: [{
-		widthloss: 0.047,
+		widthloss: 0.045,
 		dx: 0.5,
 		dz: 0.5,
 		segment: 4,
@@ -14,7 +14,7 @@
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
 		branchWidthMultiplier: { avg: 0.3, var: 0 },
 		branchWidthMultiplierEvolve: { transform: "linear", factor: 0.4 },
-		branchQuantity: { avg: 2, var: 0 },
+		branchQuantity: { avg: 3, var: 0 },
 		branchQuantityEvolve: { transform: "quadratic", factor: 0.3 }
 	}, {
 		inherit: { from: 0, skip: ["dx", "dz", "dieAt", "segment"] },
@@ -48,9 +48,9 @@
 		branchWidthMultiplier: { avg: 0.4, var: 0 }
 	}],
     "treeBlocks": {
-    	"logBlockCode": "bdtree:log-grown-redcedar-ud",
+    	"logBlockCode": "log-grown-redcedar-ud",
 		"leavesBlockCode": "bdtree:leaves-grown-redcedar",
-		"leavesBranchyBlockCode": "bdtree:leavesbranchy-grown-redcedar",
+		"leavesBranchyBlockCode": "leavesbranchy-grown-redcedar",
 		"vinesBlockCode": "game:wildvine-section-north",
 		"vinesEndBlockCode": "game:wildvine-end-north",
 		"trunkSegmentBase": "bdtree:logsection-grown-redcedar-",

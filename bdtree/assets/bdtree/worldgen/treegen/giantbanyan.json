@@ -51,9 +51,9 @@
 		branchWidthMultiplier: { avg: 0.8, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-banyan-ud",
+		logBlockCode: "log-grown-banyan-ud",
 		leavesBlockCode: "bdtree:leaves-grown-banyan",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-banyan",
+		leavesBranchyBlockCode: "leavesbranchy-grown-banyan",
 		vinesBlockCode: "game:wildvine-tropical-section-north",
 		vinesEndBlockCode: "game:wildvine-tropical-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss",

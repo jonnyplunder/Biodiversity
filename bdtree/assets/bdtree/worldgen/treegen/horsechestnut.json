@@ -1,10 +1,10 @@
 {
 	treeWorldPropertyCode: "horsechestnut",
-	sizeMultiplier: 1,
+	sizeMultiplier: 1.4,
 	trunks: [{
 		widthloss: 0.1,
 		branchStart: { avg: 0.3, var: 0.05 },
-		branchSpacing: { avg: 0, var: 0 },
+		branchSpacing: { avg: 0.15, var: 0 },
 		branchVerticalAngle:  { avg: 1.32, var: 0 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
 		branchWidthMultiplier: { avg: 0.1, var: 0 },
@@ -27,9 +27,9 @@
 		branchStart: { avg: 2 }
 	}],
 	treeBlocks: {
-		logBlockCode: "bdtree:log-grown-horsechestnut-ud",
+		logBlockCode: "log-grown-horsechestnut-ud",
 		leavesBlockCode: "bdtree:leaves-grown-horsechestnut",
-		leavesBranchyBlockCode: "bdtree:leavesbranchy-grown-horsechestnut",
+		leavesBranchyBlockCode: "leavesbranchy-grown-horsechestnut",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north",
 		mossDecorCode: "game:attachingplant-spottymoss"
