@@ -1,22 +1,23 @@
 {
-	treeWorldPropertyCode: "nrwaspen",
-	sizeMultiplier: 0.6,
+	treeWorldPropertyCode: "deadkapok",
+	isTropical: true,
+	sizeMultiplier: 1.4,
 	trunks: [{
 		widthloss: 0.06,
-		dieAt: { avg: 0.006 },
-		branchStart: { dist: "gaussian", avg: 0.2, var: 0.2 },
-		branchSpacing: { dist: "gaussian", avg: 0.2, var: 0.1 },
+		dieAt: { avg: 0.2 },
+		branchStart: { dist: "gaussian", avg: 0.3, var: 0.2 },
+		branchSpacing: { avg: 0, var: 0 },
 		branchVerticalAngle:  { avg: 0.8, var: 0.1 },
 		branchHorizontalAngle: { avg: 0, var: 3.1415 },
-		branchWidthMultiplier: { avg: 0.07, var: 0 },
+		branchWidthMultiplier: { avg: 0.15, var: 0 },
 		branchWidthMultiplierEvolve: { transform: "linear", factor: 1.5 },
-		branchQuantity: { avg: 5, var: 0 },
+		branchQuantity: { avg: 1, var: 0 },
 		branchWidthLossMul: 0.98,
 	}],
 	branches: [{
 		widthLoss: 0.06,
 		gravityDrag: 0.1,
-		dieAt: { avg: 0.001 },
+		dieAt: { avg: 0.2 },
 
 		branchStart:  { avg: 0.1, var: 0.01 },
 		branchSpacing: { avg: 0.1, var: 0 },
@@ -27,10 +28,11 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-aspen-ud",
-		leavesBlockCode: "bdtree:leaves-grown-aspen",
-		leavesBranchyBlockCode: "leavesbranchy-grown-aspen",
-		vinesBlockCode: "game:wildvine-section-north",
-		vinesEndBlockCode: "game:wildvine-end-north"
+		logBlockCode: "log-grown-kapok-ud",
+		leavesBlockCode: "leaves-grown-kapok",
+		leavesBranchyBlockCode: "leavesbranchy-grown-kapok",
+		vinesBlockCode: "wildvine-tropical-section-north",
+		vinesEndBlockCode: "wildvine-tropical-end-north",
+		mossDecorCode: "attachingplant-spottymoss"
 	}
 }

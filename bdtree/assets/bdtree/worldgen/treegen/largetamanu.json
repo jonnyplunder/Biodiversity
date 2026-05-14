@@ -1,6 +1,6 @@
 {
-	"treeWorldPropertyCode": "thicktamanu",
-        "isTropical": true,
+	"treeWorldPropertyCode": "largetamanu",
+  "isTropical": true,
 	"sizeMultiplier": 1.7,
 	"trunks": [{
 		"widthloss": 0.1,

@@ -1,6 +1,6 @@
 {
-	treeWorldPropertyCode: "nrwaspen",
-	sizeMultiplier: 0.6,
+	treeWorldPropertyCode: "nrwbrideinwhite",
+	sizeMultiplier: 0.55,
 	trunks: [{
 		widthloss: 0.06,
 		dieAt: { avg: 0.006 },
@@ -27,9 +27,9 @@
 		branchWidthMultiplier: { avg: 0.6, var: 0 }
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-aspen-ud",
-		leavesBlockCode: "bdtree:leaves-grown-aspen",
-		leavesBranchyBlockCode: "leavesbranchy-grown-aspen",
+		logBlockCode: "lognarrow-grown-brideinwhite-ud",
+		leavesBlockCode: "bdtree:leaves-grown-brideinwhite",
+		leavesBranchyBlockCode: "leavesbranchy-grown-brideinwhite",
 		vinesBlockCode: "game:wildvine-section-north",
 		vinesEndBlockCode: "game:wildvine-end-north"
 	}

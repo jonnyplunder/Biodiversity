@@ -1,7 +1,7 @@
 {
 	treeWorldPropertyCode: "banyan",
         isTropical: true,
-	sizeMultiplier: 0.9,
+	sizeMultiplier: 1.2,
 	trunks: [{
 		widthloss: 0.1,
 		branchStart: { avg: 0.3, var: 0.05 },
