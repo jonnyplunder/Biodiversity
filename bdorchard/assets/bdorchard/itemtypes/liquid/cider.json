@@ -48,13 +48,11 @@
       "nutritionPropsPerLitreByType": {
         "@*-(lemon|lime|grapefruit)": {
           "satiety": 80,
-          "health": 4,
           "intoxication": 0.15,
           "foodcategory": "Fruit"
         },
         "*": {
           "satiety": 80,
-          "health": 2,
           "intoxication": 0.15,
           "foodcategory": "Fruit"
         }
