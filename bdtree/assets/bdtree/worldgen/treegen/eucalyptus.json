@@ -1,7 +1,7 @@
 {
 	treeWorldPropertyCode: "eucalyptus",
         isTropical: true,
-	sizeMultiplier: 1.7,
+	sizeMultiplier: 1.65,
 	trunks: [{
 		widthloss: 0.04,
 		dieAt: { avg: 0.001 },

@@ -1,6 +1,6 @@
 {
-	treeWorldPropertyCode: "shrubheather",
-	sizeMultiplier: 0.2,
+	treeWorldPropertyCode: "dwarfbirch",
+	sizeMultiplier: 0.3,
 	trunks: [{
 		widthloss: 0.1,
 		dieAt: { avg: 0.001 },
@@ -20,8 +20,10 @@
 		branchStart:  { avg: 2, var: 0.01 },
 	}],
 	treeBlocks: {
-		logBlockCode: "lognarrow-grown-heather-ud",
-		leavesBlockCode: "bdtree:leaves-grown-heather",
-		leavesBranchyBlockCode: "leavesbranchy-grown-heather",
+		logBlockCode: "log-grown-birch-ud",
+		leavesBlockCode: "leaves-grown-birch",
+		leavesBranchyBlockCode: "leavesbranchy-grown-birch",
+		vinesBlockCode: "wildvine-section-north",
+		vinesEndBlockCode: "wildvine-end-north", mossDecorCode: "attachingplant-spottymoss"
 	}
 }

@@ -1,6 +1,6 @@
 {
 	treeWorldPropertyCode: "nrwaspen",
-	sizeMultiplier: 0.45,
+	sizeMultiplier: 0.6,
 	trunks: [{
 		widthloss: 0.06,
 		dieAt: { avg: 0.006 },

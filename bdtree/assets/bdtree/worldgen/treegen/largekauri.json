@@ -1,7 +1,7 @@
 {
-	treeWorldPropertyCode: "thickkauri",
+	treeWorldPropertyCode: "largekauri",
         isTropical: true,
-	sizeMultiplier: 0.65,
+	sizeMultiplier: 1.0,
 	yOffset: -2,
 	trunks: [{
 		widthloss: 0.047,

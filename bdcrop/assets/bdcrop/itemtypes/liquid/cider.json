@@ -48,7 +48,7 @@
       "nutritionPropsPerLitreByType": {
         "*": {
           "satiety": 80,
-          "health": 2,
+          "health": 0,
           "intoxication": 0.15,
           "foodcategory": "Fruit"
         }

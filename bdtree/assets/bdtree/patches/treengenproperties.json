@@ -134,7 +134,7 @@
     "path": "/treegens/-",
     "value": {
       "Generator": "bdtree:mountaindouglasfir",
-      "Weight": 70,
+      "Weight": 80,
       "SuitabilitySizeBonus": 0.8,
       "MinTemp": 10,
       "MaxTemp": 17,
@@ -155,7 +155,7 @@
     "path": "/treegens/-",
     "value": {
       "Generator": "bdtree:redcedar",
-      "Weight": 25,
+      "Weight": 35,
       "SuitabilitySizeBonus": 0.6,
       "MinTemp": 13,
       "MaxTemp": 17,
@@ -345,7 +345,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:alder",
+      "Generator": "bdtree:nrwalder",
       "Weight": 15,
       "SuitabilitySizeBonus": 0.8,
       "MinSize": 0.7,
@@ -368,7 +368,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:brideinwhite",
+      "Generator": "bdtree:nrwbrideinwhite",
       "Weight": 15,
       "MinTemp": -4,
       "MaxTemp": 14,
@@ -406,6 +406,7 @@
     "side": "server"
   },
   {
+    "enabled": false,
     "op": "add",
     "path": "/treegens/-",
     "value": {
@@ -432,7 +433,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:redwillow",
+      "Generator": "bdtree:nrwredwillow",
       "Weight": 15,
       "MinTemp": -20,
       "MaxTemp": -4,
@@ -536,7 +537,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:thickamore",
+      "Generator": "bdtree:largesycamore",
       "Weight": 25,
       "SuitabilitySizeBonus": 0.2,
       "MinTemp": 13,
@@ -812,7 +813,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:wiliwili",
+      "Generator": "bdtree:nrwwiliwili",
       "Weight": 15,
       "SuitabilitySizeBonus": 0.6,
       "MinSize": 0.7,
@@ -1026,7 +1027,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:mousetrap",
+      "Generator": "bdtree:nrwmousetrap",
       "Weight": 60,
       "MinTemp": 27,
       "MaxTemp": 40,
@@ -1046,7 +1047,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:aspen",
+      "Generator": "bdtree:nrwaspen",
       "Weight": 45,
       "MinTemp": -16,
       "MaxTemp": 10,
@@ -1244,7 +1245,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:treeheather",
+      "Generator": "bdtree:nrwtreeheather",
       "Weight": 15,
       "SuitabilitySizeBonus": 0.8,
       "MinTemp": 25,

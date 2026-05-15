@@ -1,6 +1,6 @@
 {
 	treeWorldPropertyCode: "microbiota",
-	sizeMultiplier: 0.15,
+	sizeMultiplier: 0.6,
 	trunks: [{
 		widthloss: 0.1,
 		dieAt: { avg: 0.001 },

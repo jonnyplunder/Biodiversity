@@ -22,11 +22,10 @@
     "side": "server"
   },
   {
-    "enabled": false,
     "op": "add",
     "path": "/shrubgens/-",
     "value": {
-      "Generator": "bdtree:shrubalder",
+      "Generator": "bdtree:shrubnrwalder",
       "Weight": 3,
       "MinSize": 0.7,
       "MaxSize": 1,
@@ -45,7 +44,6 @@
     "side": "server"
   },
   {
-    "enabled": false,
     "op": "add",
     "path": "/shrubgens/-",
     "value": {
@@ -68,11 +66,10 @@
     "side": "server"
   },
   {
-    "enabled": false,
     "op": "add",
     "path": "/shrubgens/-",
     "value": {
-      "Generator": "bdtree:shrubheather",
+      "Generator": "bdtree:shrubnrwheather",
       "Weight": 25,
       "MinSize": 0.6,
       "MaxSize": 0.8,
@@ -91,11 +88,10 @@
     "side": "server"
   },
   {
-    "enabled": false,
     "op": "add",
     "path": "/shrubgens/-",
     "value": {
-      "Generator": "bdtree:shrubredwillow",
+      "Generator": "bdtree:shrubnrwredwillow",
       "Weight": 5,
       "MinSize": 0.7,
       "MaxSize": 1,

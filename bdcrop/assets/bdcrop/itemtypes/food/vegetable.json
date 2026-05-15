@@ -23,7 +23,9 @@
       "loadFromProperties": "bdcrop:item/food/vegetable"
     }
   ],
-  "shape": { "base": "bdcrop:item/vegetable/{type}" },
+  "shapebytype": {
+    "*": { "base": "bdcrop:item/vegetable/{type}" }
+  },
   "attributes": {
     "handbook": {
       "groupBy": [ "vegetable-*" ]

@@ -1,7 +1,7 @@
 {
 	"enabled": false,
 	treeWorldPropertyCode: "weepingwillow",
-	sizeMultiplier: 1.2,
+	sizeMultiplier: 1.22,
 	trunks: [{
 		widthloss: 0.10,
 		branchStart: { avg: 0.4, var: 0.05 },

@@ -1,6 +1,6 @@
 {
 	treeWorldPropertyCode: "sycamore",
-	sizeMultiplier: 1.8,
+	sizeMultiplier: 1.7,
 	trunks: [{
 		widthloss: 0.09,
 		dieAt: { avg: 0.002 },

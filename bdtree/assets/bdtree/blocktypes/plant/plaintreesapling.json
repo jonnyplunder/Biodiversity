@@ -3,7 +3,11 @@
 	class: "BlockSapling",
 	entityclass: "Sapling",
 	variantgroups: [
-		{ code: "wood", states: ["bluespruce", "wiliwili", "crownofthorns", "brideinwhite", "alder", "weepingwillow", "redwillow", "pyramidalpoplar", "aspen", "heather", "sourwood", "mousetrap"], loadFromProperties: "bdtree:block/wood" },
+		{
+			code: "wood",
+			states: [ "bluespruce", "wiliwili", "crownofthorns", "brideinwhite", "alder", /*"weepingwillow", "pyramidalpoplar",*/ "redwillow", "aspen", "heather", "sourwood", "mousetrap" ],
+			loadFromProperties: "bdtree:block/wood"
+		},
 		{ code: "cover", states: ["free", "snow"] }
 	],
 	skipVariants: [ "*-chlorociboria-*", "*-charred-*" ],
@@ -19,7 +23,7 @@
 			"*-bearnut-*": "bdtree:bearnut",
 			"*-beech-*": "bdtree:beech",
 			"*-poplar-*": "bdtree:blackpoplar",
-			"*-pyramidalpoplar-*": "bdtree:pyramidalpoplar",
+			//"*-pyramidalpoplar-*": "bdtree:pyramidalpoplar",
 			"*-bluemahoe-*": "bdtree:bluemahoe",
 			"*-bluespruce-*": "bdtree:bluespruce",
 			"*-brideinwhite-*": "bdtree:brideinwhite",
@@ -50,7 +54,7 @@
 			"*-umnini-*": "bdtree:umnini",
 			"*-wiliwili-*": "bdtree:wiliwili",
 			"*-willow-*": "bdtree:willow",
-			"*-weepingwillow-*": "bdtree:weepingwillow",
+			//"*-weepingwillow-*": "bdtree:weepingwillow",
 			"*-yew-*": "bdtree:yew",
 			"*-satinash-*": "bdtree:satinash",
 			"*-fir-*": "bdtree:truefir",

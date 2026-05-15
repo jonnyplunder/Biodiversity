@@ -1,4 +1,18 @@
 [
+  // Add tomato hydration
+  {
+    "dependsOn": [ { "modid": "hydrateordiedrate" } ],
+    "file": "bdcrop:itemtypes/food/vegetable.json",
+    "op": "addmerge",
+    "path": "/attributes",
+    "side": "server",
+    "value": {
+      "hydrationByType": {
+        "@*-(tomato)": 50, // This is larger than normal as these are melons
+        "*": 0
+      }
+    }
+  },
   // Fruit add hydration
   {
     "dependsOn": [ { "modid": "hydrateordiedrate" } ],
@@ -12,7 +26,7 @@
         "*": 50
       }
     }
-    },
+  },
   // Raw juice hydration
   {
     "dependsOn": [ { "modid": "hydrateordiedrate" } ],

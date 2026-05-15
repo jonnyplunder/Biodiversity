@@ -1,5 +1,5 @@
 {
-	treeWorldPropertyCode: "thickelm",
+	treeWorldPropertyCode: "largeelm",
 	sizeMultiplier: 1.4,
 	yOffset: -2,
 	trunks: [{
