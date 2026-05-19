@@ -135,9 +135,15 @@
   "bdcrop:item-spiritportion-honeydewmelon": "Honeydew melon brandy",
   "bdcrop:incontainer-item-spiritportion-honeydewmelon": "Honeydew melon brandy",
 
+  // Vegetable/Grain Brewing
+  "bdcrop:item-ciderportion-potato": "Potato alcohol mash",
+  "bdcrop:incontainer-item-ciderportion-potato": "Potato alcohol mash",
+  "bdcrop:item-ciderportion-potato-disc": "Potato mash to distill into vodka. You can drink this but is disgusting",
+  "bdcrop:item-spiritportion-potato": "Potato vodka",
+  "bdcrop:incontainer-item-spiritportion-potato": "Potato vodka",
+
   //Modded Cooking Items
   //"bdcrop:item-vegetable-bakedpotato": "Baked potato",
-
 
 
   //Vine Crops

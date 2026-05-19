@@ -3,7 +3,8 @@
   "variantgroups": [
     {
       "code": "fruit",
-      "loadFromProperties": "bdcrop:item/food/fruit"
+      "loadFromProperties": "bdcrop:item/food/fruit",
+      "states": ["potato"]
     }
   ],
   "class": "ItemLiquidPortion",
@@ -24,6 +25,10 @@
       "containable": true,
       "itemsPerLitre": 100,
       "texturebytype": {
+        "*-potato": {
+          "base": "game:block/food/pie/fill-potato",
+          "alpha": 100
+        },
         "*": {
           "base": "bdcrop:block/food/pie/fill-{fruit}",
           "alpha": 100
@@ -49,6 +54,10 @@
   },
   "shape": { "base": "game:item/liquid" },
   "texturebytype": {
+    "*-potato": {
+      "base": "game:block/food/pie/fill-potato",
+      "alpha": 100
+    },
     "*": {
       "base": "bdcrop:block/food/pie/fill-{fruit}",
       "alpha": 100

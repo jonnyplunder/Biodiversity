@@ -3,7 +3,8 @@
   "variantgroups": [
     {
       "code": "fruit",
-      "loadFromProperties": "bdcrop:item/food/fruit"
+      "loadFromProperties": "bdcrop:item/food/fruit",
+      "states": ["potato"]
     }
   ],
   "class": "ItemLiquidPortion",
@@ -20,6 +21,13 @@
       }
     },
     "distillationPropsbytype": {
+      "*-ciderportion-potato": {
+        "distilledStack": {
+          "type": "item",
+          "code": "spiritportion-potato"
+        },
+        "ratio": 0.05
+      },
       "*": {
         "distilledStack": {
           "type": "item",
@@ -32,6 +40,10 @@
       "containable": true,
       "itemsPerLitre": 100,
       "texturebytype": {
+        "*-potato": {
+          "base": "game:block/food/pie/fill-potato",
+          "alpha": 200
+        },
         "*": {
           "base": "bdcrop:block/food/pie/fill-{fruit}",
           "alpha": 200
@@ -50,18 +62,24 @@
           "satiety": 80,
           "health": 0,
           "intoxication": 0.15,
-          "foodcategory": "Fruit"
-        }
+          "foodcategorybytype": {
+            "*-potato": "Vegetable",
+            "*": "Fruit"
+          }
       }
     }
   },
   "shape": { "base": "game:item/liquid" },
-  "texturebytype": {
-    "*": {
-      "base": "bdcrop:block/food/pie/fill-{fruit}",
-      "alpha": 200
-    }
-  },
+    "texturebytype": {
+      "*-potato": {
+        "base": "game:block/food/pie/fill-potato",
+        "alpha": 200
+      },
+      "*": {
+        "base": "bdcrop:block/food/pie/fill-{fruit}",
+        "alpha": 200
+      }
+    },
   "creativeinventoryStacks": [
     {
       "tabs": [ "general", "liquids", "bdcrop" ],
