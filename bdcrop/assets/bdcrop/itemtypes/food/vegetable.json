@@ -20,7 +20,13 @@
   "variantgroups": [
     {
       "code": "type",
-      "loadFromProperties": "bdcrop:item/food/vegetable"
+      //"loadFromProperties": "bdcrop:item/food/vegetable",
+      "states": [
+        "leek",
+        "tomato",
+        "naplessquash",
+        "butternutsquash"
+      ]
     }
   ],
   "shapebytype": {
