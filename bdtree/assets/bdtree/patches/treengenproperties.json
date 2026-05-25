@@ -324,7 +324,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:thickelm",
+      "Generator": "bdtree:largeelm",
       "Weight": 25,
       "SuitabilitySizeBonus": 0.2,
       "MinTemp": 14,
@@ -665,7 +665,7 @@
     "op": "add",
     "path": "/treegens/-",
     "value": {
-      "Generator": "bdtree:sourwood",
+      "Generator": "bdtree:nrwsourwood",
       "Weight": 10,
       "SuitabilitySizeBonus": 0.7,
       "MinTemp": 14,
